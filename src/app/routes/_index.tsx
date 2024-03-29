@@ -41,6 +41,13 @@ export default function Index() {
           {tab === 'sell' ? <SellForm /> : <BuyForm  />}
         </div>
       </div>
+      <p className="absolute top-[calc(100vh-120px)] left-10 font-overpass font-bold text-neutral-light text-lg">
+        Pay me a coffee ☕!
+      </p>
+      <p className="absolute top-[calc(100vh-90px)] left-10 font-overpass text-neutral-light text-md leading-6">
+        Ethereum/Arbitrum: <span className="text-primary">0x7385358Ec37eFe93E80Bde8f71D53469829c4848</span><br />
+        Solana: <span className="text-primary">ESS8fnbD2KyogRh9Cg6i5tWkuy4JuzG9AnwWFygeWLZk</span>
+      </p>
     </>
   );
 }
